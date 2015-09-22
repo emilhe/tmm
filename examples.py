@@ -220,3 +220,6 @@ def sample5():
         poly_y = [y0, y0, y1, y1]
         color_string = colorpy.colormodels.irgb_string_from_irgb(irgb_list[i])
         plt.fill(poly_x, poly_y, color_string, edgecolor=color_string)
+
+def sample6():
+    print('test sample')
